@@ -1,0 +1,25 @@
+server:
+  servlet:
+    context-path: /${spring.application.name}
+  port: 8093
+
+dubbo:
+  application:
+    name: ${spring.application.name}
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  consumer:
+    check: false
+    timeout: 3000
+  provider:
+    filter: providerTraceId   #provider使用的拦截器
+
+
+
+
+
+
+
+
+

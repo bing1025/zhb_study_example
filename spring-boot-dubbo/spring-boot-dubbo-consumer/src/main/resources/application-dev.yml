@@ -1,0 +1,22 @@
+server:
+  servlet:
+    context-path: /${spring.application.name}
+  port: 8094
+
+dubbo:
+  application:
+    name: ${spring.application.name}
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1:2181
+  consumer:
+    filter: consumerTraceId   #consumer使用的拦截器
+
+
+
+
+
+
+
+
+

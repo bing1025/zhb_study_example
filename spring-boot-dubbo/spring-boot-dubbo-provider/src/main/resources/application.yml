@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: dubbo-provider
+  profiles:
+    active: dev
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="60 second">
+
+	<property scope="local" name="LOG_PATH" value="/app/applogs/dubbo-consumer" />
+
+	<include resource="wping-logback.xml"/>
+
+	<logger name="com.netflix.loadbalancer" additivity="false" level="INFO" />
+	<logger name="org.apache.http" additivity="false" level="INFO" />
+	<logger name="com.netflix.discovery" additivity="false" level="INFO" />
+
+	<springProfile name="dev">
+		<root level="DEBUG" additivity="false">
+			<appender-ref ref="CONSOLE" />
+			<appender-ref ref="ASYNC_DEBUG_FILE" />
+			<appender-ref ref="ASYNC_INFO_FILE" />
+			<appender-ref ref="ASYNC_WARN_FILE" />
+			<appender-ref ref="ASYNC_ERROR_FILE" />
+		</root>
+	</springProfile>
+
+	<springProfile name="test">
+		<root level="DEBUG" additivity="false">
+			<appender-ref ref="ASYNC_DEBUG_FILE" />
+			<appender-ref ref="ASYNC_INFO_FILE" />
+			<appender-ref ref="ASYNC_WARN_FILE" />
+			<appender-ref ref="ASYNC_ERROR_FILE" />
+		</root>
+	</springProfile>
+
+	<springProfile name="prod">
+		<root level="INFO" additivity="false">
+			<appender-ref ref="ASYNC_DEBUG_FILE" />
+			<appender-ref ref="ASYNC_INFO_FILE" />
+			<appender-ref ref="ASYNC_WARN_FILE" />
+			<appender-ref ref="ASYNC_ERROR_FILE" />
+		</root>
+	</springProfile>
+
+</configuration>
