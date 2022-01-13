@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhb-demo-parent</artifactId>
+        <groupId>org.example.zhb</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>StudyDemo</artifactId>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <dep.ver.lombok>1.16.10</dep.ver.lombok>
+        <dep.ver.druid>1.0.1</dep.ver.druid>
+        <dep.ver.mysql>5.1.21</dep.ver.mysql>
+        <dep.ver.springframework>4.2.5.RELEASE</dep.ver.springframework>
+        <dep.ver.mybatis>3.3.0</dep.ver.mybatis>
+        <dep.ver.mybatis-spring>1.3.0</dep.ver.mybatis-spring>
+        <dep.ver.pagehelper>4.1.6</dep.ver.pagehelper>
+        <dep.ver.aspectjrt>1.5.4</dep.ver.aspectjrt>
+        <dep.ver.aspectjweaver>1.8.0</dep.ver.aspectjweaver>
+        <dep.ver.servlet>3.1.0</dep.ver.servlet>
+        <dep.ver.orika-core>1.4.6</dep.ver.orika-core>
+        <dep.ver.javassist>3.20.0-GA</dep.ver.javassist>
+        <dep.ver.paranamer>2.7</dep.ver.paranamer>
+        <dep.ver.concurrentlinkedhashmap-lru>1.4.2</dep.ver.concurrentlinkedhashmap-lru>
+        <dep.ver.gson>2.2.4</dep.ver.gson>
+        <dep.ver.guava>15.0</dep.ver.guava>
+        <dep.ver.slf4j>1.7.21</dep.ver.slf4j>
+        <dep.ver.logback>1.1.7</dep.ver.logback>
+        <dep.ver.log4j>1.2.12</dep.ver.log4j>
+        <dep.ver.slf4j-log4j12>1.7.5</dep.ver.slf4j-log4j12>
+        <dep.ver.logback-ext-spring>0.1.2</dep.ver.logback-ext-spring>
+        <dep.ver.dubbo>2.5.3</dep.ver.dubbo>
+        <dep.ver.zookeeper>3.4.8</dep.ver.zookeeper>
+        <dep.ver.zkclient>0.8</dep.ver.zkclient>
+        <dep.ver.commons-lang3>3.1</dep.ver.commons-lang3>
+        <dep.ver.jackson>1.9.12</dep.ver.jackson>
+        <dep.ver.shiro>1.2.3</dep.ver.shiro>
+        <dep.ver.freemarker>2.3.22</dep.ver.freemarker>
+        <dep.ver.commons-beanutils>1.9.2</dep.ver.commons-beanutils>
+        <dep.ver.junit>4.11</dep.ver.junit>
+        <dep.ver.mockito>1.10.19</dep.ver.mockito>
+        <dep.ver.joda-time>2.9.3</dep.ver.joda-time>
+        <dep.ver.commons-collections4>4.1</dep.ver.commons-collections4>
+        <dep.ver.httpclient>4.5.2</dep.ver.httpclient>
+
+        <dep.ver.fastjson>1.2.11</dep.ver.fastjson>
+
+        <plg.ver.maven-resources-plugin>2.7</plg.ver.maven-resources-plugin>
+        <plg.ver.maven-compiler-plugin>2.5.1</plg.ver.maven-compiler-plugin>
+        <plg.ver.maven-source-plugin>3.0.0</plg.ver.maven-source-plugin>
+        <plg.ver.lombok-maven-plugin>1.14.8.0</plg.ver.lombok-maven-plugin>
+
+        <jdk.ver>1.8</jdk.ver>
+        <encoding>UTF-8</encoding>
+        <center.project.name>${project.artifactId}</center.project.name>
+        <profiles.dir>src/profiles</profiles.dir>
+        <jackson.version>2.6.0</jackson.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- 省略get/set等方法 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- 阿里fastjson包JSON转换-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>21.0</version>
+        </dependency>
+
+        <!--       <dependency>
+                   <groupId>org.springframework</groupId>
+                   <artifactId>spring-tx</artifactId>
+                   <version>3.1.0.RELEASE</version>
+               </dependency>-->
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.7.4.1</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.example.zhb.study.demo.DemoApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConsumerDemo/ConsumerDemo.iml" filepath="$PROJECT_DIR$/ConsumerDemo/ConsumerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EasyExcelDemo/EasyExcelDemo.iml" filepath="$PROJECT_DIR$/EasyExcelDemo/EasyExcelDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FacadeDemo/FacadeDemo.iml" filepath="$PROJECT_DIR$/FacadeDemo/FacadeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProviderDemo/ProviderDemo.iml" filepath="$PROJECT_DIR$/ProviderDemo/ProviderDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyDemo/StudyDemo.iml" filepath="$PROJECT_DIR$/StudyDemo/StudyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-traceId-spi-extension/dubbo-traceId-spi-extension.iml" filepath="$PROJECT_DIR$/dubbo-traceId-spi-extension/dubbo-traceId-spi-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zhb-demo-parent.iml" filepath="$PROJECT_DIR$/.idea/zhb-demo-parent.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,4 @@
+consumerLog=com.example.zhb.study.demo.filter.ConsumerAccessLogFilter
+providerLog=com.example.zhb.study.demo.filter.ProviderAccessLogFilter
+consumerTraceId=com.example.zhb.study.demo.filter.ConsumerTraceIdFilter
+providerTraceId=com.example.zhb.study.demo.filter.ProviderTraceIdFilter

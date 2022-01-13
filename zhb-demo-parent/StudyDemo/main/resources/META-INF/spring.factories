@@ -1,0 +1,3 @@
+
+#  ApplicationContextInitializer 三种实现方式其三  https://www.cnblogs.com/hello-shf/p/10987360.html
+#  org.springframework.context.ApplicationContextInitializer=com.example.zhb.study.demo.day15.initEnum.EnumExtInit

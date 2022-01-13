@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-traceId-spi-extension" />
+        <module name="ConsumerDemo" />
+        <module name="EasyExcelDemo" />
+        <module name="FacadeDemo" />
+        <module name="StudyDemo" />
+        <module name="ProviderDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ConsumerDemo" target="1.8" />
+      <module name="dubbo-traceId-spi-extension" target="1.8" />
+      <module name="EasyExcelDemo" target="1.8" />
+      <module name="FacadeDemo" target="1.8" />
+      <module name="ProviderDemo" target="1.8" />
+      <module name="StudyDemo" target="1.8" />
+      <module name="zhb-demo-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConsumerDemo" options="-parameters" />
+      <module name="EasyExcelDemo" options="-parameters" />
+      <module name="FacadeDemo" options="-parameters" />
+      <module name="ProviderDemo" options="-parameters" />
+      <module name="StudyDemo" options="-parameters" />
+      <module name="dubbo-traceId-spi-extension" options="-parameters" />
+    </option>
+  </component>
+</project>

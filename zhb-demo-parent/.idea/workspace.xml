@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e0c700d-5d60-47c8-a4d9-b5a9c22ebd4c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\zhb\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../software/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22j5c4TN820wHWdussLtmmWB6LB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ConsumerDemo/src/main/java/com/example/zhb/study/demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ProviderDemo/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\dubbo-traceId-spi-extension\src\main\resources\META-INF" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\ConsumerDemo\src\main\resources\META-INF" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\ConsumerDemo\src\main" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\ConsumerDemo\src" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\ConsumerDemo\src\main\java\com.example.zhb.demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.zhb.study.demo.easyexcel" />
+      <recent name="com.example.zhb.study.demo.common.filter" />
+      <recent name="com.example.zhb.study.demo.common.constants" />
+      <recent name="com.example.zhb.study.demo.service" />
+      <recent name="com.example.zhb.study.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\ProviderDemo\src\main\resources" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\dubbo-traceId-spi-extension" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\dubbo-traceId-spi-extension\src\main\resources" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\dubbo-traceId-spi-extension\src\main\java\com\example\zhb\study\demo" />
+      <recent name="D:\zhb\workspace\git-hub\zhb_study_example\zhb-demo-parent\ConsumerDemo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="ReadTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EasyExcelDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zhb.study.demo.easyexcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.zhb.study.demo.easyexcel" />
+      <option name="MAIN_CLASS_NAME" value="com.example.zhb.study.demo.easyexcel.ReadTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zhb.study.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.zhb.study.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.zhb.study.demo.StringTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteTest.getData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EasyExcelDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zhb.study.demo.easyexcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.zhb.study.demo.easyexcel" />
+      <option name="MAIN_CLASS_NAME" value="com.example.zhb.study.demo.easyexcel.WriteTest" />
+      <option name="METHOD_NAME" value="getData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ConsumerDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zhb.study.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zhb.study.demo.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StudyDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zhb.study.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacadeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="FacadeDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zhb.study.demo.FacadeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ProviderDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.zhb.study.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zhb.study.demo.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="JUnit.StringTest.test1" />
+        <item itemvalue="JUnit.WriteTest.getData" />
+        <item itemvalue="JUnit.ReadTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e0c700d-5d60-47c8-a4d9-b5a9c22ebd4c" name="Default Changelist" comment="" />
+      <created>1640338231898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640338231898</updated>
+      <workItem from="1640338234982" duration="6666000" />
+      <workItem from="1640344918900" duration="1905000" />
+      <workItem from="1640569219780" duration="621000" />
+      <workItem from="1640569855670" duration="2136000" />
+      <workItem from="1640760472901" duration="7773000" />
+      <workItem from="1640919955702" duration="11333000" />
+      <workItem from="1641259030038" duration="2707000" />
+      <workItem from="1641375912610" duration="1898000" />
+      <workItem from="1641887822249" duration="9068000" />
+      <workItem from="1641953415434" duration="23038000" />
+      <workItem from="1641985612147" duration="3828000" />
+      <workItem from="1642040190042" duration="10611000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641890799028">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="616" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1641890799028" />
+    <state x="659" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1641892738088">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="659" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1707.1067@0.0.1707.1067" timestamp="1641892738088" />
+    <state x="318" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1641890204836">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="318" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1641890204836" />
+    <state x="584" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640939360487">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="584" y="280" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1640939360487" />
+    <state x="937" y="397" key="#xdebugger.evaluate" timestamp="1641966961577">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="937" y="397" key="#xdebugger.evaluate/0.0.1707.1067@0.0.1707.1067" timestamp="1641966961577" />
+    <state width="505" height="466" key="DebuggerActiveHint" timestamp="1641959194370">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="505" height="466" key="DebuggerActiveHint/0.0.1707.1067@0.0.1707.1067" timestamp="1641959194370" />
+    <state x="634" y="289" key="FileChooserDialogImpl" timestamp="1641976908888">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="634" y="289" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1641976908888" />
+    <state width="1663" height="342" key="GridCell.Tab.0.bottom" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.0.center" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.0.left" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.0.right" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.1.bottom" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.1.center" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.center/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.1.left" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.left/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.1.right" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.1.right/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.2.bottom" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.2.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.2.center" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.2.center/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.2.left" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.2.left/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state width="1663" height="342" key="GridCell.Tab.2.right" timestamp="1642077382605">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state width="1663" height="342" key="GridCell.Tab.2.right/0.0.1707.1067@0.0.1707.1067" timestamp="1642077382605" />
+    <state x="384" y="189" key="Maven.ArtifactSearchDialog" timestamp="1641978017683">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="384" y="189" key="Maven.ArtifactSearchDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1641978017683" />
+    <state x="355" y="178" key="SettingsEditor" timestamp="1641976910362">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="355" y="178" key="SettingsEditor/0.0.1707.1067@0.0.1707.1067" timestamp="1641976910362" />
+    <state x="652" y="311" width="564" height="444" key="chooseDestDirectoryDialog" timestamp="1640345044424">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="652" y="311" width="564" height="444" key="chooseDestDirectoryDialog/0.0.1707.1067@0.0.1707.1067" timestamp="1640345044424" />
+    <state x="394" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1641957323578">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="394" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1707.1067@0.0.1707.1067" timestamp="1641957323578" />
+    <state x="617" y="290" width="983" height="594" key="find.popup" timestamp="1642056853353">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="617" y="290" width="983" height="594" key="find.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1642056853353" />
+    <state x="427" y="280" key="new project wizard" timestamp="1641973537456">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="427" y="280" key="new project wizard/0.0.1707.1067@0.0.1707.1067" timestamp="1641973537456" />
+    <state x="516" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1641981007701">
+      <screen x="0" y="0" width="1707" height="1067" />
+    </state>
+    <state x="516" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1707.1067@0.0.1707.1067" timestamp="1641981007701" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+server:
+  port: 8061
+
+dubbo:
+  application:
+    name: springboot-dubbo-provider-demo #应用名
+    qos-enable: true  # Qos（Quality of Service）是Dubbo的在线运维命令，可以对服务进行动态的配置、控制及查询，Dubboo2.5.8新版本重构了telnet（telnet是从Dubbo2.0.5开始支持的）模块，提供了新的telnet命令支持，新版本的telnet端口与dubbo协议的端口是不同的端口，默认为22222
+    qos-port: 11111
+    qos-accept-foreign-ip: false
+  registry:
+    address: zookeeper://localhost #zookeeper地址
+    port: 2181 #提供注册的端口
+    # 读者请自行更改zookeeper地址
+    protocol: zookeeper
+    check: false
+  protocol:
+    name: dubbo
+    port: 30003
+  monitor:
+    protocol: register
+  consumer:
+    check: false
+    timeout: 3000
+#  provider:
+#    filter: providerTraceId   #provider使用的拦截器
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.example.zhb.study.demo.bean
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug
+
+#方法是否被调用 开关 Y表示调用，N表示不调用
+can:
+  method:
+    be:
+      called : Y
