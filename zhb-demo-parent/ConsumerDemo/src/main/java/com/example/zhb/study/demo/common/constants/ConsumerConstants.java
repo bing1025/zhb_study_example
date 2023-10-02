@@ -9,5 +9,6 @@ package com.example.zhb.study.demo.common.constants;
  */
 public class ConsumerConstants {
 
-
+    public static final int doFilterCode  = 403;
+    public static final String doFilterException = "请申请IP白名单";
 }

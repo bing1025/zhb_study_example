@@ -30,6 +30,9 @@
         <module>StudyDemo</module>
         <module>ProviderDemo</module>
         <module>ConsumerDemo</module>
+        <module>screwDemo</module>
+        <module>enum-application</module>
+        <module>flink-CDC</module>
 
     </modules>
 

@@ -6,10 +6,7 @@ import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 /**
  * https://www.cnblogs.com/javasl/p/13834671.html
@@ -46,5 +43,10 @@ public class FileUtil {
         }
         return item;
     }
+
+    public static InputStream getResourcesFileInputStream(String fileName) {
+        return Thread.currentThread().getContextClassLoader().getResourceAsStream("" + fileName);
+    }
+
 
 }

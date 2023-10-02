@@ -27,6 +27,16 @@ dubbo:
     timeout: 3000
 #    filter: consumerTraceId   #consumer使用的拦截器
 
+#bpm域名过滤
+bpm:
+  fiter:
+    #domain: http://xxx.sit,https://xxxxx.net:8089,http://xxxxx.sit:8088,http://xxxxx:8888,https://xxxxx:8443
+    domain: http://localhost:8063
+
+file:
+  fiter:
+    type: .gif,.jpeg,.pdf,.doc,.docx,.xlsx,.xls,.ppt,.zip,.rar
+
 
 
 

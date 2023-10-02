@@ -114,6 +114,13 @@
             <version>2.7.4.1</version>
         </dependency>
 
+        <!--表达式引擎Aviator基本介绍及使用以及基于Aviator的规则引擎 day25 使用-->
+        <dependency>
+            <groupId>com.googlecode.aviator</groupId>
+            <artifactId>aviator</artifactId>
+            <version>5.1.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>

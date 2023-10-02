@@ -12,6 +12,10 @@
     <artifactId>EasyExcelDemo</artifactId>
 
     <dependencies>
+        <!-- easypoi简单导出所需要的jar包 start -->
+            <!-- TODO 后期加入 easypoi 来跟 easyexcel 做一下对比-->
+        <!-- easypoi简单导出所需要的jar包 end-->
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>easyexcel</artifactId>
@@ -87,7 +91,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>
